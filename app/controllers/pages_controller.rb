@@ -5,7 +5,8 @@ class PagesController < ApplicationController
   	end
   end
 
-  def about  	
+  def about
+  	@title = "About"  	
   end
 
   def test
